@@ -1,0 +1,188 @@
+/*INFORMATION SECTION*/
+.information_section
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdd7de86;
+    font-family: "Inter",'sans-serif';
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/*--| SERVICE SECTION*/
+.service_section {
+    text-align: left;
+}
+
+
+.service_button button
+{
+    width: 35%;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F97892, #f1b3be);
+    color: white;
+    border: none;
+}
+
+.service_information
+{
+    color: #BD7C89;
+}
+
+/*--| SUPPORT SECTION*/
+.support_section {
+    text-align: left;
+}
+
+.support_button button
+{
+    width: 35%;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F97892, #f1b3be);
+    color: white;
+    border: none;
+}
+
+.support_information
+{
+    color: #BD7C89;
+}
+
+/*--| MY ACCOUNT SECTION*/
+.myaccount_section {
+    text-align: left;
+}
+
+.myaccount_button button
+{
+    width: 60%;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F97892, #f1b3be);
+    color: white;
+    border: none;
+}
+
+.myaccount_information
+{
+    color: #BD7C89;
+}
+
+/*CONTACT SECTION*/
+.contact_section
+{
+    margin-top: 1%;
+    text-align: left;
+    display: flex;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+/*--| CONTACT DETAIL SECTION*/
+.contact_detail_section
+{
+    margin-right: 27%;
+}
+
+.contact_detail_section button
+{
+    width: 40%;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F97892, #f1b3be);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/*----| ADFRESS SECTION*/
+.address_section
+{
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    color: #FBA1B3;
+}
+.address_section img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+    margin-left: -1%;
+    cursor: pointer;
+}
+
+/*----| PHONENUMBER SECTION*/
+.phonenumber_section
+{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    color: #FBA1B3;
+}
+.phonenumber_section img{
+    width: 30px;
+    height: 30px;
+    margin-right: 7%;
+    cursor: pointer;
+}
+
+/*----| EMAIL SECTION*/
+.email_section
+{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.email_section img{
+    width: 30px;
+    height: 30px;
+    margin-right: 7%;
+    cursor: pointer;
+}
+
+.email_section a
+{
+    text-decoration: none;
+    color: #FBA1B3;
+}
+/*----| SOCIAL SECTION*/
+.social_section img
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 10%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+/*PAYMENT SECTION*/
+.payment_section button
+{
+    width: 120%;
+    font-size: 15px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F97892, #f1b3be);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.payment_section img
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
