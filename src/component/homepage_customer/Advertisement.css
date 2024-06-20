@@ -1,0 +1,28 @@
+/*BACKGROUND SECTION*/
+.background_section {
+    background-image: url("https://t3.ftcdn.net/jpg/03/22/84/26/360_F_322842626_6mv7Mao8WyLmuVo0SHsfvXsUGy2hhsJd.jpg");
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 183vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome_word
+{
+    font-family: "WindSong", cursive;
+    font-size: 100px;
+    margin-top: -100px;
+    margin-bottom: -50px;
+    color: white;
+}
+
+.intro_word
+{
+    font-family: "Yaldevi", sans-serif;
+    color: white;
+    font-size: 30px;
+}

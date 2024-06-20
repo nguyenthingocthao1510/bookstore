@@ -1,0 +1,37 @@
+/*Product category*/
+.product_category
+{
+    margin-left: 1%;
+}
+/* --| Title section*/
+.title_section_product_category h1
+{
+    color: #FBA1B3;
+    text-align: left;
+    border-bottom: 5px solid #FBA1B3;
+    width: 18%;
+}
+
+.small_line
+{
+    margin-top: -24px;
+    border: 1px solid #FBA1B3;
+}
+/* --| Product section*/
+.product_section
+{
+    text-align: left;
+}
+/* ------| Product image*/
+.product_section img
+{
+    width: 150px;
+    height: 200px;
+}
+/* ------| Product name*/
+.product_section p
+{
+    color: #BD7C89;
+}
+
+

@@ -1,0 +1,152 @@
+/*Whole header bar*/
+.header_section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+/*Logo section*/
+.logo_section img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/*Search bar section*/
+.search_section
+{
+    display: flex;
+    border: 1px solid;
+    width: 30%;
+    height: 25%;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.search_bar{
+    border: none;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: hsla(348, 30%, 30%, 0.507);
+    width: 78%;
+    font-size: 15px;
+}
+
+.finding_logo
+{
+    background: linear-gradient(to right, #F97892, #ffccd6);
+    width: 4%;
+    height: 1%;
+    color: white;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+    float: right;
+    cursor: pointer;
+}
+
+/*Menu bar section*/
+.menu_bar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    color: #FBA1B3;
+    align-items: center;
+}
+
+/*Home section*/
+.home_section
+{
+    display: flex;
+    align-items: center;
+    width: 27%;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding-right: 1%;
+    padding-left: 3%;
+    height: 45px;
+    background: linear-gradient(#FBA1B3,#FBA1B3);
+    color: white;
+    border-radius: 30px;
+    margin-right: 1%;
+}
+
+.home_section:hover
+{
+    border-radius: 30px;
+}
+
+/*Cart section*/
+.cart_section
+{
+    display: flex;
+    align-items: center;
+    width: 27%;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding-right: 0%;
+    padding-left: 5%;
+    height: 45px;
+    margin-right: 1%;
+}
+
+.cart_section:hover
+{
+    background: linear-gradient(#FBA1B3,#FBA1B3);
+    color: white;
+    border-radius: 30px;
+}
+
+/*User section*/
+.user_section
+{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding-right: 0%;
+    padding-left: 5%;
+    height: 45px;
+    margin-right: 1%;
+}
+
+.user_section:hover
+{
+    background: linear-gradient(#FBA1B3,#FBA1B3);
+    color: white;
+    border-radius: 30px;
+}
+
+/*p section*/
+.home_section p,
+.cart_section p,
+.user_section p
+{
+    padding-right: 1%;
+    margin-left: 8%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*icon section*/
+.home_icon,
+.cart_icon,
+.user_icon
+{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}

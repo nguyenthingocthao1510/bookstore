@@ -1,0 +1,50 @@
+/*Highlight section*/
+.hightlight_section
+{
+    margin-top: -22px;
+    background: linear-gradient(#851C57, #ffffff);
+    height: 100%;
+    color: #ffffff;
+}
+
+.title_section 
+{
+    color: #ffffff;
+}
+
+/* ---| Title of highlight product */
+.title_section h1
+{
+    color: #ffffff;
+}
+
+/* ---| Highlight product */
+.highlight_product
+{
+    margin-left: 1%;
+    text-align: left;
+}
+
+/* ------| image of highlight product */
+.image_of_product
+{
+    width: 150px;
+    height: 200px;
+}
+
+/* ------| Name of highlight product */
+.name
+{
+    color: #BD7C89;
+    font-size: 15px;
+}
+
+/* ------| Price of highlight product */
+.price
+{
+    color: #FF0000;
+    font-size: 20px;
+}
+
+
+

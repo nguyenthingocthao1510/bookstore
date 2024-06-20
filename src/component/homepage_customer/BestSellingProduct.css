@@ -1,0 +1,47 @@
+/*Best selling product*/
+.best_selling_product
+{
+    margin-left: 1%;
+}
+
+/* --| Best selling product title section*/
+.title_section_best_selling_product h1
+{
+    color: #FBA1B3;
+    text-align: left;
+    border-bottom: 5px solid #FBA1B3;
+    width: 22%;
+}
+
+.small_line
+{
+    margin-top: -24px;
+    border: 1px solid #FBA1B3;
+}
+
+/* --| Best selling product section*/
+.best_selling_product_section
+{
+    text-align: left;
+}
+
+/* ------| Best selling product image*/
+.best_selling_product_section img
+{
+    width: 150px;
+    height: 200px;
+}
+
+/* ------| Best selling product name*/
+.best_selling_product_section .name
+{
+    color: #BD7C89;
+}
+
+/* ------| Best selling product price*/
+.best_selling_product_section .price
+{
+    color: #FF0000;
+}
+
+
