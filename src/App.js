@@ -9,7 +9,7 @@ function App() {
       {/**Homepage of customer */}
       <BrowserRouter>
         <Routes>
-          <Route path="/home" element={<MainHomepage />}></Route>
+          <Route path="/" element={<MainHomepage />}></Route>
         </Routes>
       </BrowserRouter>
       {/**Homepage of customer */}
