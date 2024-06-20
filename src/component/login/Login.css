@@ -1,0 +1,59 @@
+.triagle
+{
+    margin-top: 2px;
+}
+.triagle::after
+{
+    content: "\25B6";
+    color: #f2a2a2;
+}
+
+.line
+{
+    border-bottom: 3px solid #f2a2a2;
+    width: 130px;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+
+.circle::after
+{
+    content:"\25CF";
+    color: #f2a2a2;
+    margin-left: -5px;
+}
+
+.line_down
+{
+    display: flex;
+    align-items: center;
+}
+/* Login section */
+.login_section
+{
+    background-image: url("../../assets/background_login.png");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+/* --| Logo section */
+.logo_section_login img
+{
+    width: 30%;
+}
+
+/* --| Login information */
+/* ------| Login or Signup */
+
+
+.inline_button_phoneumber
+{
+    text-align: left;
+}
+
+.inline_button_phoneumber p
+{
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
