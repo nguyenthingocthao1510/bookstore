@@ -1,0 +1,105 @@
+/*Sign up section*/
+.signup_section
+{
+    display: flex;
+    background-image: url("../../assets/background_login.png");
+    background-size: cover;
+    height: 626px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+/* ---------| Phonenumber section*/
+.phonenumbersignup_section
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.inline_phone_number
+{
+    display: inline-block;
+}
+
+.inline_phone_number p
+{
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-family: 'Inter' sans-serif;
+    text-align: left;
+    color: #9d9d9d;
+}
+
+.phonenumber {
+   all: unset;
+    border-radius: 30px;
+    height: 50px;
+    width: 205%;
+    padding-left: 5%;
+    background-color: white;
+    text-align: left;
+}
+
+.otp_section p
+{
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-family: 'Inter' sans-serif;
+    text-align: left;
+    color: #9d9d9d;
+}
+
+.otp_function {
+   display: flex;
+   background: white;
+   height: 50px;
+   border-radius: 30px;
+   width: 205%;
+   text-align: left;
+   padding-left: 5%;
+}
+
+.otp_function input
+{    
+    all: unset;
+}
+
+.otp_function button
+{
+    all: unset;
+    padding-left: 45%;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+
+.password_section_signup p
+{
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-family: 'Inter' sans-serif;
+    text-align: left;
+    color: #9d9d9d;
+}
+
+.password_information_signup {
+   all: unset;
+    border-radius: 30px;
+    height: 50px;
+    width: 205%;
+    padding-left: 5%;
+    background-color: white;
+    text-align: left;
+}
+
+.sigup_into_btn 
+{
+    all: unset;
+    background: linear-gradient(to right, #FF7F99, #81EDFC);
+    width: 210%;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: black;
+}
+
+

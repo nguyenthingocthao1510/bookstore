@@ -1,21 +1,23 @@
 import React from "react";
-import "./Login.css";
+import "./Signup.css";
 import LogoLogin from "../../assets/logo_login.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-function Login() {
+function Signup() {
   return (
-    <div className="login_section">
-      <div className="logo_section_login">
+    <div className="signup_section">
+      <div className="logo_section_signup">
         <img src={LogoLogin} alt="Logo" />
       </div>
-      <div className="login_information_form">
-        <div className="option_login_signup">
+      <div className="signin_information_form">
+        <div className="option_login_signup" style={{ marginTop: "60px" }}>
           <div className="login_option">
             <FontAwesomeIcon icon={faUser} className="login_option_icon" />
-            <button className="login_btn">Log In</button>
+            <Link to="/login" style={{ textDecoration: "none" }}>
+              <button className="login_btn">Log In</button>
+            </Link>
           </div>
           <div className="signup_option">
             <FontAwesomeIcon
@@ -27,9 +29,9 @@ function Login() {
             </Link>
           </div>
         </div>
-        <div className="login_information_section">
-          <div className="phonenumberlogin_section">
-            <div className="inline_button_phoneumber">
+        <div className="signup_information_section">
+          <div className="phonenumbersignup_section">
+            <div className="inline_phone_number">
               <p>Phone Number:</p>
               <div className="line_down">
                 <div className="triagle"></div>
@@ -39,10 +41,22 @@ function Login() {
             </div>
             <input
               placeholder="Your phone number"
-              className="phonenumber_information"
+              className="phonenumber"
             ></input>
           </div>
-          <div className="password_section">
+          <div className="otp_section">
+            <p>OTP: </p>
+            <div className="line_down">
+              <div className="triagle"></div>
+              <div className="line"></div>
+              <div className="circle"></div>
+            </div>
+            <div className="otp_function">
+              <input placeholder="Your OTP" className="otp_information"></input>
+              <button>Send OTP</button>
+            </div>
+          </div>
+          <div className="password_section_signup">
             <p>Password: </p>
             <div className="line_down">
               <div className="triagle"></div>
@@ -51,14 +65,16 @@ function Login() {
             </div>
             <input
               placeholder="Your password"
-              className="password_information"
+              className="password_information_signup"
             ></input>
           </div>
         </div>
-        <div className="forgotten_password_section">
-          <p>Forget your password?</p>
-          <Link to="/home" style={{ textDecoration: "none" }}>
-            <button className="Login_into_btn">LOG IN</button>
+        <div
+          className="forgotten_password_section"
+          style={{ marginTop: "20px" }}
+        >
+          <Link to="/login" style={{ textDecoration: "none" }}>
+            <button className="sigup_into_btn">SIGN UP</button>
           </Link>
         </div>
       </div>
@@ -66,4 +82,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Signup;
