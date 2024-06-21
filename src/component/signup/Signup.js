@@ -15,7 +15,7 @@ function Signup() {
         <div className="option_login_signup" style={{ marginTop: "60px" }}>
           <div className="login_option">
             <FontAwesomeIcon icon={faUser} className="login_option_icon" />
-            <Link to="/login" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               <button className="login_btn">Log In</button>
             </Link>
           </div>
