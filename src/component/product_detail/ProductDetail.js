@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import HeaderHomePage from "../homepage_customer/HomepageHeader";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faCartShopping } from "@fortawesome/free-solid-svg-icons";
@@ -8,6 +8,11 @@ import ProductImg from "../../assets/highlight_product.png";
 
 function ProductDetail() {
   const [quantity, setQuantity] = useState(1);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const Increase_quantity = () => {
     setQuantity(quantity + 1);
   };
@@ -25,7 +30,7 @@ function ProductDetail() {
       </div>
       <div className="basic_information">
         <div className="picture_of_product">
-          <img src={ProductImg} />
+          <img src={ProductImg} alt="Product" />
         </div>
         <div className="product_information">
           <p className="product_name">
@@ -58,7 +63,7 @@ function ProductDetail() {
             </Link>
           </div>
           <div className="refund_message">
-            <a>Refund in 30 days</a>
+            <a href="#">Refund in 30 days</a>
           </div>
         </div>
       </div>
