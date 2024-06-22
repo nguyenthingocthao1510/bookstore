@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomepageHeader.css";
+import "./Cartheader.css";
 import logo from "../../assets/logo_bookstore.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -26,26 +26,17 @@ function Header() {
       </div>
 
       <div className="menu_bar">
-        <div className="home_section">
-          <FontAwesomeIcon icon={faHouse} className="home_icon" />
-          <p>Home</p>
-        </div>
-        <div className="homepage_cart_section">
-          <Link
-            to="/cart"
-            style={{
-              textDecoration: "none",
-              all: "unset",
-              width: "100px",
-              display: "flex",
-              alignItems: "center",
-            }}
-          >
-            <FontAwesomeIcon icon={faCartShopping} className="cart_icon" />
-            <p>Cart</p>
-          </Link>
-        </div>
+        <a href="/home" className="cart_home_section">
+          <div>
+            <FontAwesomeIcon icon={faHouse} className="home_icon" />
+            <p>Home</p>
+          </div>
+        </a>
 
+        <div className="cart_section">
+          <FontAwesomeIcon icon={faCartShopping} className="cart_icon" />
+          <p>Cart</p>
+        </div>
         <a href="/user-information" className="user_section">
           <div>
             <FontAwesomeIcon icon={faUserLarge} className="user_icon" />

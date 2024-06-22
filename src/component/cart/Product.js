@@ -3,10 +3,12 @@ import "./Product.css";
 import ProductImage from "../../assets/highlight_product.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import Header from "./header";
 
 function Product() {
   return (
     <div className="cart-information">
+      <Header></Header>
       <div className="cart_section_detail">
         <h2>Cart</h2>
         <div className="small-line"></div>

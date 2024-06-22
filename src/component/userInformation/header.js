@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomepageHeader.css";
+import "./header.css";
 import logo from "../../assets/logo_bookstore.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,7 +8,6 @@ import {
   faCartShopping,
   faUserLarge,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -26,32 +25,22 @@ function Header() {
       </div>
 
       <div className="menu_bar">
-        <div className="home_section">
-          <FontAwesomeIcon icon={faHouse} className="home_icon" />
-          <p>Home</p>
-        </div>
-        <div className="homepage_cart_section">
-          <Link
-            to="/cart"
-            style={{
-              textDecoration: "none",
-              all: "unset",
-              width: "100px",
-              display: "flex",
-              alignItems: "center",
-            }}
-          >
-            <FontAwesomeIcon icon={faCartShopping} className="cart_icon" />
-            <p>Cart</p>
-          </Link>
-        </div>
-
-        <a href="/user-information" className="user_section">
+        <a href="/home" className="user_home_section">
           <div>
-            <FontAwesomeIcon icon={faUserLarge} className="user_icon" />
-            <p>Username</p>
+            <FontAwesomeIcon icon={faHouse} className="home_icon" />
+            <p>Home</p>
           </div>
         </a>
+        <a href="/cart" className="user_cart_section">
+          <div>
+            <FontAwesomeIcon icon={faCartShopping} className="cart_icon" />
+            <p>Cart</p>
+          </div>
+        </a>
+        <div className="user_user_section">
+          <FontAwesomeIcon icon={faUserLarge} className="user_icon" />
+          <p>Username</p>
+        </div>
       </div>
     </div>
   );

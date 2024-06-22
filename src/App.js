@@ -6,6 +6,7 @@ import Login from "./component/login/Login";
 import Signup from "./component/signup/Signup";
 import Cart from "./component/cart/Cart";
 import ProductDetail from "./component/product_detail/ProductDetail";
+import User from "./component/userInformation/User";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             path="/product/:name"
             element={[<ProductDetail />, <Footer />]}
           />
+          <Route path="/user-information" element={<User />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
