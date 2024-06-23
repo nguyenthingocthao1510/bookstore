@@ -1,0 +1,73 @@
+.sidebar
+{
+    display: inline-block;
+    text-align: left;
+    width: 15%;
+    margin-right: 5%;
+}
+
+.top-section
+{}
+
+.menu-items
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-item
+{
+    text-decoration: none;
+    color: #FBA1B3;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    padding: 5%;
+    margin-bottom: 3%;
+    padding-left: 10px;
+}
+
+.menu-item:hover
+{
+    background: #f2a2a2;
+    color: white;
+}
+
+.menu-item.active
+{
+}
+
+.link-text
+{
+    font-size: 20px;
+    font-family: "Inter" sans-serif;
+    font-weight: 300;
+}
+
+.toggle-bar
+{
+    color: #f2a2a2;
+    text-align: left;
+    padding-left: 1%;
+}
+
+.toggle-bar.active
+{
+    text-align: left;
+    margin-left: 0px;
+}
+
+.icon
+{
+    margin-right: 5%;
+}
+
+.link-text
+{}
+
+.active
+{
+    background: #f2a2a2;
+    color: white;
+}
