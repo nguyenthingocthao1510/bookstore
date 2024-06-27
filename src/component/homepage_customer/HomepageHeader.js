@@ -46,7 +46,7 @@ function Header() {
           </Link>
         </div>
 
-        <a href="/user-information" className="user_section">
+        <a href="/user-information/user-profile" className="user_section">
           <div>
             <FontAwesomeIcon icon={faUserLarge} className="user_icon" />
             <p>Username</p>

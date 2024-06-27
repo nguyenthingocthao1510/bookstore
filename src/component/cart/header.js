@@ -8,7 +8,6 @@ import {
   faCartShopping,
   faUserLarge,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -37,7 +36,7 @@ function Header() {
           <FontAwesomeIcon icon={faCartShopping} className="cart_icon" />
           <p>Cart</p>
         </div>
-        <a href="/user-information" className="user_section">
+        <a href="/user-information/user-profile" className="user_section">
           <div>
             <FontAwesomeIcon icon={faUserLarge} className="user_icon" />
             <p>Username</p>

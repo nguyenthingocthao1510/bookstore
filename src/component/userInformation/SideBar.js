@@ -55,7 +55,7 @@ const SideBar = () => {
             icon={faBars}
             onClick={toggle}
             className="toggle-bar"
-            style={{ fontSize: isOpen ? "30px" : "30px" }}
+            style={{ fontSize: isOpen ? "30px" : "30px", marginBottom: "1%" }}
           />
         </div>
       </div>
