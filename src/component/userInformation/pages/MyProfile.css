@@ -2,7 +2,7 @@
 {
     color: #FBA1B3;
     border-bottom: 1px solid rgb(217, 217, 217);
-    width: 475%;
+    width: 415%;
     text-align: left;
 }
 
@@ -15,12 +15,12 @@
 {
     display: flex;
     align-items: center;
-    width: 475%;
+    width: 415%;
 }
 
 .user-name h3
 {
-    width: 30%;
+    width: 20%;
     text-align: left;
     color: #BD7C89;
 }
@@ -30,7 +30,7 @@
     width: 100%;
     color: #BD7C89;
     margin-bottom: 3%;
-    font-size: 130%;
+    font-size: 120%;
     text-align: left;
 }
 
@@ -40,6 +40,7 @@
     margin-bottom: 3%;
     height: 25px;
     text-align: right;
+    cursor: pointer;
 }
 
 .user-name-section
@@ -54,43 +55,43 @@
 {
     display: flex;
     color: #BD7C89;
-    width: 475%;
+    width: 415%;
 }
 
 .phone-number h3
 {
-    width: 30%;
+    width: 20%;
     text-align: left;
 }
 
 .phone-number p
 {
-    font-size: 130%;
+    font-size: 120%;
 }
 
 .date-of-birth
 {
     display: flex;
     color: #BD7C89;
-    width: 475%;
+    width: 415%;
 }
 
 .date-of-birth h3
 {
-    width: 30%;
+    width: 20%;
     text-align: left;
 }
 
 .date-of-birth p
 {
-    font-size: 130%;
+    font-size: 120%;
 }
 
 .user-gender
 {
     display: flex;
     align-items: center;
-    width: 475%;
+    width: 415%;
     color: #BD7C89;
 }
 
@@ -99,7 +100,7 @@
     display: inline-flex;
     text-align: left;
     flex-direction: column;
-    width: 475%;
+    width: 415%;
     margin-bottom: 3%;
 }
 
@@ -159,7 +160,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 475%;
+    width: 415%;
     margin-bottom: 7%;
     cursor: pointer;
 }

@@ -1,0 +1,113 @@
+.purchase-whole-section
+{
+    text-align: left;
+}
+
+.purchase-titile
+{
+    color: #FBA1B3;
+    border-bottom: 1px solid grey;
+    width: 145%;
+}
+
+.purchase-section
+{
+   
+}
+
+.order-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #BD7C89;
+    width: 145%;
+}
+
+.order-date-section
+{
+    display: flex;
+    align-items: center;
+}
+
+.order-process-section
+{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.order-process-section p
+{
+    width: 100%;
+}
+
+.order-process-section p span
+{
+    margin-left: 10%;
+    color: red;
+    font-size: 20px;
+}
+
+.order-icon
+{
+    margin-right: 1%;
+}
+
+.order-information
+{
+    width: 145%;
+}
+
+.order-detail
+{
+
+}
+
+.order-detail table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-detail table thead
+{
+    background: #FDD7DE;
+    color: #BD7C89;
+}
+
+.order-detail table tbody 
+{
+   color: #BD7C89;
+}
+
+.order-detail table tbody tr {
+    border: 1px solid rgb(206, 206, 206);
+}
+
+
+.order-detail table tbody tr img
+{
+    margin-top: 3%;
+    width: 40%;
+}
+
+
+.order-total
+{
+    margin-top: 1%;
+    text-align: right;
+    color: #BD7C89;
+    font-size: 20px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.order-total p
+{
+    margin-top: 1%;
+}
+
+.order-total p span
+{
+    color: red;
+    font-size: 25px;
+}

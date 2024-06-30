@@ -13,7 +13,7 @@ function MyProfile() {
         <div className="user-name">
           <h3>Name</h3>
           <div className="user-name-section">
-            <p>Duong Quoc Vux</p>
+            <p>Nguyen Thi Ngoc Thao</p>
             <FontAwesomeIcon icon={faPenToSquare} className="user-name-icon" />
           </div>
         </div>
