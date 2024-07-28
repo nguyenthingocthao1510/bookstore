@@ -55,7 +55,10 @@ const SideBar = () => {
             icon={faBars}
             onClick={toggle}
             className="toggle-bar"
-            style={{ fontSize: isOpen ? "30px" : "30px", marginBottom: "1%" }}
+            style={{
+              fontSize: isOpen ? "30px" : "30px",
+              marginBottom: "1%",
+            }}
           />
         </div>
       </div>
@@ -66,6 +69,7 @@ const SideBar = () => {
             key={index}
             className="menu-item"
             activeClassName="active"
+            // style={{ height: "120px" }}
           >
             <FontAwesomeIcon icon={item.icon} className="icon" />
             <span

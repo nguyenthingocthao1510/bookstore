@@ -1,10 +1,8 @@
-/* src/SingleGenderCheckbox.css */
-
-.custom-checkbox {
+/* .custom-checkbox {
     display: flex;
     align-items: center;
     font-family: Arial, sans-serif;
-    color: #b07c85; /* matching the color in your image */
+    color: #b07c85;
   }
   
   .custom-checkbox input {
@@ -15,7 +13,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    border: 2px solid #b07c85; /* matching the color in your image */
+    border: 2px solid #b07c85; 
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
@@ -24,11 +22,105 @@
   }
   
   .custom-checkbox .checkbox-icon.checked {
-    background-color: #b07c85; /* matching the color in your image */
+    background-color: #b07c85; 
     color: white;
   }
   
   .custom-checkbox .checkbox-label {
     cursor: pointer;
   }
-  
+   */
+.mycontact_header {
+  border-bottom: 1px grey solid;
+  width: 320%;
+  text-align: left;
+  margin-bottom: 15%;
+}
+
+.mycontact_header p {
+  color: #fba1b3;
+  font-size: 25px;
+  height: 100%;
+  margin-bottom: 1%;
+}
+
+.mycontact_body {
+  /* width: 950%; */
+}
+
+.chat_body {
+  width: 320%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat_body p {
+  border: 1px #fba1b3 solid;
+  width: 22%;
+  padding-right: 1%;
+  margin-bottom: -2%;
+  font-size: 30px;
+  height: 55px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #bd7c89;
+}
+
+.response_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120%;
+}
+
+.response_body a {
+  margin-left: 5%;
+  font-size: 30px;
+  width: 100%;
+  border: 1px #fba1b3 solid;
+  border-radius: 20px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bd7c89;
+}
+
+.chatbar {
+  background: #fba1b3;
+  width: 325%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 80px;
+}
+
+.icon_plus {
+  background: white;
+  color: #fba1b3;
+  border-radius: 100px;
+  height: 75%;
+  cursor: pointer;
+  margin-left: 5%;
+  width: 5%;
+  margin-right: 5%;
+}
+
+.chatbar input {
+  font-size: 20px;
+  padding-left: 1%;
+  width: 78%;
+  height: 70%;
+  border-radius: 20px;
+}
+
+.icon_send {
+  width: 8%;
+  cursor: pointer;
+  color: white;
+  height: 50%;
+}
